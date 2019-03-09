@@ -1,0 +1,24 @@
+Functional Requirements for the Elevator
+
+On each floor there is a button to call the elevator
+Inside elevator: four buttons for each floor
+When a button is pressed, all others are disabled until the elevator arrives
+When the elevator reaches the floor, the door opens only if the agent inside has the required security credentials.
+If the agent doesn’t have the required credentials, he can press another button to go to another level
+The speed of the elevator is 1 floor per 1 sec.
+
+Your Task
+
+Implement the elevator system as a C# a program and test it by letting agents of different security levels use the elevator repeatedly
+Model the elevator, agents, the elevator door (security check) and the buttons of the elevator.
+Implement the movement of the elevator and button functionality as required
+Implement the security check before opening the door and letting the agent out
+
+Explanatory Notes
+
+Each agent is serviced by a separate thread
+Moving around is randomly generated
+Elevator is serviced by a separate thread
+It is enough to allow one agent in the elevator at a time
+Bonus points if you support more; however, in this case door decides how to open based on the agent with lowest security credentials
+
