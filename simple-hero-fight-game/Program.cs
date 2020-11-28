@@ -1,6 +1,8 @@
-﻿//Course assignment "Product inventory"
+﻿//
+//Course assignment "Product inventory"
 // Written by Engin Mustafa, SE-1
 // Faculty №: 1701321011
+//
 
 using System;
 using System.Collections.Generic;
